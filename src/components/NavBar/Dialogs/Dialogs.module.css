@@ -1,0 +1,41 @@
+.wrapperContent {
+  grid-area: C;
+  background-color: rgb(183, 151, 241);
+  width: 100%;
+}
+
+.dialogs {
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+}
+.dialogItem {
+  padding: 10px;
+}
+
+.dialog {
+  margin: 10px;
+  max-width: calc(100% - 67px);
+  overflow-wrap: break-word;
+  padding: 10px;
+  color: white;
+  background-color: rgb(73, 71, 247);
+  border-radius: 20px;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+}
+
+.dialogItem .active {
+  color: rgb(255, 0, 0);
+}
+
+.message {
+  max-width: calc(100% - 67px);
+  overflow-wrap: break-word;
+  padding: 10px;
+  margin: 15px;
+  color: white;
+  background-color: rgb(73, 71, 247);
+  border-radius: 20px;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+}

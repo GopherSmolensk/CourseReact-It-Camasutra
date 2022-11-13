@@ -1,0 +1,32 @@
+.wrapperContent {
+    grid-area       : C;
+    /* background-color: rgb(109, 37, 241); */
+    width           : 100%;
+}
+
+.containerUsers{
+    padding: 5px;
+}
+
+.blockDescriptionUsers{
+    display: flex;
+}
+
+.blockUserDescription{
+    margin-left: 200px;
+}
+.photos{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.selectedPage{
+    font-weight: bold;
+    color: rgb(243, 11, 11);    
+}
+span{
+    
+    cursor: pointer;
+    padding: 3px;
+    color: #000;
+}

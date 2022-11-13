@@ -1,0 +1,15 @@
+.postBlock {
+    padding: 10px;
+    margin-top: 20px;
+}
+.areaBlock{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+button {
+    cursor: pointer;
+}
+.posts {
+    padding: 10px;
+}

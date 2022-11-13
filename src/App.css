@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+body {
+  font-size: 20px;
+  font-family: Arial !important;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.wrapper {
+  max-width: 1200px;
+  /* height: 100vh; */
+  /* background-color: green; */
+  margin: 0 auto;
+  display: grid;
+  gap: 10px;
+
+  grid-template-areas: 
+  "H H H H  H H H H  H H H H"
+  "N C C C  C C C C  C C C C"
+  "N C C C  C C C C  C C C C"
+  "N C C C  C C C C  C C C C"
+  "N C C C  C C C C  C C C C"
+  "N C C C  C C C C  C C C C"
+  "N C C C  C C C C  C C C C"
+  "N C C C  C C C C  C C C C";
+}

@@ -1,0 +1,31 @@
+/* .content {
+  grid-area: C;
+  background-color: rgb(109, 37, 241)
+}
+*/
+/* .imagesContent { 
+  width: 100%;
+  height: 300px;
+}  */
+.item img {
+  width        : 50px;
+  height       : 50px;
+  border-radius: 10px;
+
+}
+
+.item {
+  color          : aliceblue;
+  display        : flex;
+ align-items: center;
+ padding: 10px;
+}
+.block{
+  padding: 0 10px;
+}
+.blockLike{
+  background-color: rgb(255, 6, 6);
+}
+.likeItem{
+  color: #fff;
+}

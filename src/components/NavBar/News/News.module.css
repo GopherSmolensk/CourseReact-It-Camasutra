@@ -1,0 +1,6 @@
+.wrapperContent {
+  grid-area: C;
+  background-color: rgb(109, 37, 241);
+  width: 100%;
+}
+
